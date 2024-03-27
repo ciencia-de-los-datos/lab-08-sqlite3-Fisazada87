@@ -49,3 +49,4 @@ SELECT a.K0, avg(t.c21) as "avg (c21)"
     ON (t.K1 = a.K1)
     WHERE a.c13 > 400
     GROUP BY a.K0;
+    
